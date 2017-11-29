@@ -1,0 +1,15 @@
+  282  git init
+  283  touch readme.md index.html style.css
+  284  git remote add origin https://github.com/Chaos9Theory/git-drill-1.git
+  285  git add index.html
+  286  git status
+  287  git commit -m "added index.html"
+  288  nano readme.md
+  289  git add -A
+  290   git reset
+  291  touch app.js
+  292  git add -A
+  293  git commit -m "Like the devil"
+  294  git log
+  295  git push origin master
+  296  history | tail -n 15 > my-commands
